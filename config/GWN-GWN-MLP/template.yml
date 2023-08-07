@@ -1,0 +1,28 @@
+model: "TEMPLATE"
+
+guide: 4
+a: 1.0
+traintest: 'rand_50'
+trainprop: 0.7
+din: 1
+dtreat: 9
+dout: 1
+
+alpha: 1.0e-2
+sigma: 1.0
+hsic: 0.0
+mmd: 0.0
+mono: 0.0
+
+rep_hidden: [32,32]
+out_hidden: [64,64]
+node_hidden: 4
+
+batch: 32
+lr: 1.0e-2
+wd: 1.0e-7
+epoch: 500
+step: 50
+steprate: 0.5
+dp: 0.0
+act: 'selu'

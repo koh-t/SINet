@@ -1,0 +1,28 @@
+a: 1.0
+act: selu
+alpha: 1.0
+batch: 32
+din: 1
+dout: 1
+dp: 0.0
+dtreat: 9
+epoch: 500
+guide: 4
+hsic: 1.0e-06
+lr: 0.01
+mmd: 0.0
+model: GWN-GWN-MLP
+mono: 1.0e-07
+node_hidden: 4
+out_hidden:
+- 64
+- 64
+rep_hidden:
+- 16
+- 16
+sigma: 1.0
+step: 50
+steprate: 0.5
+trainprop: 0.7
+traintest: rand_50
+wd: 1.0e-07
