@@ -2,6 +2,8 @@
 - This repository reproduces the experimental results of a paper "Causal Effect Estimation on Hierarchical Spatial Graph Data" presented in KDD 2023.
 - https://dl.acm.org/doi/10.1145/3580305.3599269
 
+![Network structures of SINet (Spatial-Intervention Neural Network)](./framework.png "Network Structures of (Spatial-Intervention Neural Network)")
+
 ### Requirements
 * python 3
 * To install requirements:
