@@ -44,11 +44,11 @@ if __name__ == '__main__':
     np.random.seed(1)
     torch.manual_seed(1)
     # -------------------------------- #
-    dirpath_new = './data/'
+    dirpath = './data/'
 
-    traintestpath = f'{dirpath_new}/experiment/dataset_{args.expid}/traintest_split_id/'
+    traintestpath = f'{dirpath}/experiment/dataset_{args.expid}/traintest_split_id/'
 
-    args.dirpath = dirpath_new
+    args.dirpath = dirpath
     args.savepath = f'./out/dataset_{args.expid}'
 
     # pytorch logger
